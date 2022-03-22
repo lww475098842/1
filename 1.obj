@@ -1,0 +1,10 @@
+var objc = JSON.parse($response.body);
+obj.data.uinfo["down_daily_remainders"] = "666";
+obj.data.uinfo["play_daily_remainders"] = "666";
+
+obj.data.uinfo["play_daily_remainders"] = "666";
+obj.data.user["isvip"] = "1";
+obj.data.user["goldcoin"] = "666";
+$done({
+    body : JSON.stringify(objc)
+});
